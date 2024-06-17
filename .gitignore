@@ -5,3 +5,5 @@ __pycache__/*
 __pycache__
 build
 build/*
+website/site
+website/site/*

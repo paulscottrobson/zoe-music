@@ -4,9 +4,26 @@ OBJECTS = $(subst mxl,mscz,$(SOURCES))
 
 all: compile
 
-compile: $(OBJECTS)
+.any:
+	
+compile: $(OBJECTS) replicate
 
 %.mscz : %.mxl
 	mscore -f $< -o build/temp2.xml
 	python3 scripts/process.py build/temp2.xml build/temp.xml
 	mscore -f build/temp.xml -o $@
+
+generate: .any
+	python3 scripts/generate.py
+
+replicate: .any
+	cp -Rvn music/* website/site 
+
+website: .any generate 
+	cd website ; mkdocs -q build
+
+server: .any website
+	cd website ; mkdocs -q serve
+
+upload: .any website replicate
+	sh upload.sh

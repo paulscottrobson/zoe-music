@@ -7,7 +7,7 @@ HOST='ftp.studio2.org.uk'
 USER='zoe@studio2.org.uk'
 PASSWORD='zoewadey000'
 
-cd music
+cd website/site
 lftp -u "$USER","$PASSWORD" $HOST <<EOF
 set ssl:verify-certificate no
 set sftp:auto-confirm yes
