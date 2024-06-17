@@ -6,5 +6,6 @@
 - Godfather [MuseScore](./godfather.mscz) [MusicXML](./godfather.mxl)
 - Harry Lime Third Man [MuseScore](./harry_lime_third_man.mscz) [MusicXML](./harry_lime_third_man.mxl)
 - James Bond [MuseScore](./james_bond.mscz) [MusicXML](./james_bond.mxl)
+- Love Story [MuseScore](./love_story.mscz) [MusicXML](./love_story.mxl)
 - Mission Impossible [MuseScore](./mission_impossible.mscz) [MusicXML](./mission_impossible.mxl)
 - Zorba The Greek [MuseScore](./zorba_the_greek.mscz) [MusicXML](./zorba_the_greek.mxl)
