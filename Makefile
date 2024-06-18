@@ -18,6 +18,9 @@ generate: .any
 
 replicate: .any
 	cp -Rvn music/* website/site 
+	rm -f website/site/alltunes.zip
+	zip -r -j website/site/alltunes.zip music
+	zip -d website/site/alltunes.zip *.mxl
 
 website: .any generate 
 	cd website ; mkdocs -q build

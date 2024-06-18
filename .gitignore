@@ -1,6 +1,7 @@
 *.pyc
 *.tmp
 *.mscz
+*.zip
 __pycache__/*
 __pycache__
 build
