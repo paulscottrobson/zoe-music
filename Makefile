@@ -9,10 +9,9 @@ all: compile
 compile: $(OBJECTS) replicate
 
 %.mscz : %.mxl
-	chmod +x mscore
-	./mscore -f $< -o build/temp2.xml
+	mscore -f $< -o build/temp2.xml
 	python3 scripts/process.py build/temp2.xml build/temp.xml
-	./mscore -f build/temp.xml -o $@
+	mscore -f build/temp.xml -o $@
 
 generate: .any
 	python3 scripts/generate.py
