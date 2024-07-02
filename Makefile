@@ -17,7 +17,7 @@ generate: .any
 	python3 scripts/generate.py
 
 replicate: .any
-	cp -Rvn music/* website/site 
+	cp -Rvn music/* website/site || true
 	rm -f website/site/alltunes.zip
 	zip -r -j website/site/alltunes.zip music
 	zip -d website/site/alltunes.zip *.mxl
