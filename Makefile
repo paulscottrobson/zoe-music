@@ -1,17 +1,19 @@
 
 SOURCES = $(wildcard *.mxl */*.mxl */*/*.mxl */*/*/*.mxl)
 OBJECTS = $(subst mxl,mscz,$(SOURCES))
+MSCORE = mscore
 
 all: compile
 
 .any:
+
 	
 compile: $(OBJECTS) replicate
 
 %.mscz : %.mxl
-	mscore -f $< -o build/temp2.xml
+	$(MSCORE) -f $< -o build/temp2.xml
 	python3 scripts/process.py build/temp2.xml build/temp.xml
-	mscore -f build/temp.xml -o $@
+	$(MSCORE) -f build/temp.xml -o $@
 
 generate: .any
 	python3 scripts/generate.py
