@@ -6,7 +6,5 @@
 - Ghost Riders In The Sky [MuseScore](./ghost_riders_in_the_sky.mscz) [MusicXML](./ghost_riders_in_the_sky.mxl)
 - Rawhide [MuseScore](./rawhide.mscz) [MusicXML](./rawhide.mxl)
 - The Big Country [MuseScore](./the_big_country.mscz) [MusicXML](./the_big_country.mxl)
-- The Good The Bad And The Ugly [MuseScore](./the_good_the_bad_and_the_ugly.mscz) [MusicXML](./the_good_the_bad_and_the_ugly.mxl)
 - The High Chaparral [MuseScore](./the_high_chaparral.mscz) [MusicXML](./the_high_chaparral.mxl)
 - The Magnificent Seven [MuseScore](./the_magnificent_seven.mscz) [MusicXML](./the_magnificent_seven.mxl)
-- The Virginian [MuseScore](./the_virginian.mscz) [MusicXML](./the_virginian.mxl)

@@ -14,7 +14,7 @@ compile: $(OBJECTS) replicate
 	mkdir -p build
 	$(MSCORE) -f $< -o build/temp2.xml || true
 	python3 scripts/process.py build/temp2.xml build/temp.xml
-	$(MSCORE) -f build/temp.xml -o $@
+	$(MSCORE) -f build/temp.xml -o $@ || true
 
 generate: .any
 	python3 scripts/generate.py
