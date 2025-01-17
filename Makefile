@@ -11,7 +11,8 @@ all: compile
 compile: $(OBJECTS) replicate
 
 %.mscz : %.mxl
-	$(MSCORE) -f $< -o build/temp2.xml
+	mkdir -p build
+	$(MSCORE) -f $< -o build/temp2.xml || true
 	python3 scripts/process.py build/temp2.xml build/temp.xml
 	$(MSCORE) -f build/temp.xml -o $@
 
@@ -19,6 +20,7 @@ generate: .any
 	python3 scripts/generate.py
 
 replicate: .any
+	mkdir -p website/site
 	cp -Rvn music/* website/site || true
 	rm -f website/site/alltunes.zip
 	zip -r -j website/site/alltunes.zip music
