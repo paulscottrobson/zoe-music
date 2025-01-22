@@ -27,9 +27,11 @@ replicate: .any
 	zip -d website/site/alltunes.zip *.mxl
 
 website: .any generate 
+	cp -Rvn music/* website/docs || true	
 	cd website ; mkdocs -q build
 
 server: .any website
+	cp -Rvn music/* website/docs || true	
 	cd website ; mkdocs -q serve
 
 upload: .any website replicate
