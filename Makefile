@@ -2,7 +2,6 @@
 SOURCES = $(wildcard *.mxl */*.mxl */*/*.mxl */*/*/*.mxl)
 OBJECTS = $(subst mxl,mscz,$(SOURCES))
 MSCORE = mscore
-
 all: compile
 
 .any:
