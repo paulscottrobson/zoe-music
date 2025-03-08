@@ -6,4 +6,3 @@
 - The Big Country [MuseScore](./the_big_country.mscz) [MusicXML](./the_big_country.mxl)
 - The High Chaparral [MuseScore](./the_high_chaparral.mscz) [MusicXML](./the_high_chaparral.mxl)
 - The Magnificent Seven [MuseScore](./the_magnificent_seven.mscz) [MusicXML](./the_magnificent_seven.mxl)
-- Theme Vannetaise [MuseScore](./theme_vannetaise.mscz) [MusicXML](./theme_vannetaise.mxl)
