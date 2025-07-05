@@ -1,7 +1,8 @@
 
-SOURCES = $(wildcard *.mxl */*.mxl */*/*.mxl */*/*/*.mxl)
+SOURCES = $(wildcard music/*.mxl music/*/*.mxl music/*/*/*.mxl music/*/*/*/*.mxl)
 OBJECTS = $(subst mxl,mscz,$(SOURCES))
 MSCORE = mscore
+#/backup/Arch/Install/MuseScore-Studio-4.5.2.251141401-x86_64.AppImage
 all: compile
 
 .any:
@@ -21,16 +22,19 @@ generate: .any
 replicate: .any
 	mkdir -p website/site
 	cp -Rvn music/* website/site || true
+	cp -Rvn manual/* website/site || true
 	rm -f website/site/alltunes.zip
 	zip -r -j website/site/alltunes.zip music
 	zip -d website/site/alltunes.zip *.mxl
 
 website: .any generate 
 	cp -Rvn music/* website/docs || true	
+	cp -Rvn manual/* website/docs || true	
 	cd website ; mkdocs -q build
 
 server: .any website
 	cp -Rvn music/* website/docs || true	
+	cp -Rvn manual/* website/docs || true	
 	cd website ; mkdocs -q serve
 
 upload: .any website replicate

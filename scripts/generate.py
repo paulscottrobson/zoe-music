@@ -1,8 +1,8 @@
 import os
 
 
-for root,dirs,files in os.walk("music"):
-	name = root[6:].strip()
+for root,dirs,files in os.walk("website/docs"):
+	name = root[13:].strip()
 	if name != "":
 		h = open("website/docs/"+name+".md","w")
 		heading = name.replace("_"," ").title()
