@@ -2,6 +2,7 @@
 
 - Ae Fond Kiss [MuseScore](./ae_fond_kiss.mscz) [MusicXML](./ae_fond_kiss.mxl)
 - Afton Water [MuseScore](./afton_water.mscz) [MusicXML](./afton_water.mxl)
+- Albatross [MuseScore](./albatross.mscz) [MusicXML](./albatross.mxl)
 - Alias Smith And Jones [MuseScore](./alias_smith_and_jones.mscz) [MusicXML](./alias_smith_and_jones.mxl)
 - Allegro [MuseScore](./allegro.mscz) [MusicXML](./allegro.mxl)
 - American Patrol [MuseScore](./american_patrol.mscz) [MusicXML](./american_patrol.mxl)
