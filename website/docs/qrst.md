@@ -10,3 +10,4 @@
 - The High Chaparral [MuseScore](./the_high_chaparral.mscz) [MusicXML](./the_high_chaparral.mxl)
 - The Magnificent Seven [MuseScore](./the_magnificent_seven.mscz) [MusicXML](./the_magnificent_seven.mxl)
 - Theme Vannetaise [MuseScore](./theme_vannetaise.mscz) [MusicXML](./theme_vannetaise.mxl)
+- Trumpington Medley [MuseScore](./trumpington_medley.mscz) [MusicXML](./trumpington_medley.mxl)

@@ -7,6 +7,7 @@
 - Allegro [MuseScore](./allegro.mscz) [MusicXML](./allegro.mxl)
 - American Patrol [MuseScore](./american_patrol.mscz) [MusicXML](./american_patrol.mxl)
 - Andanta From Concerto 2 Mandolins [MuseScore](./andanta_from_concerto_2_mandolins.mscz) [MusicXML](./andanta_from_concerto_2_mandolins.mxl)
+- Andante From Concerto 2 Mandolins [MuseScore](./andante_from_concerto_2_mandolins.mscz) [MusicXML](./andante_from_concerto_2_mandolins.mxl)
 - Annie Laurie Rec Bass [MuseScore](./annie_laurie_rec_bass.mscz) [MusicXML](./annie_laurie_rec_bass.mxl)
 - Apache [MuseScore](./apache.mscz) [MusicXML](./apache.mxl)
 - As Time Goes By [MuseScore](./as_time_goes_by.mscz) [MusicXML](./as_time_goes_by.mxl)
