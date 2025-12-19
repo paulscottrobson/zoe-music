@@ -17,3 +17,4 @@
 - Theme Vannetaise [MuseScore](./theme_vannetaise.mscz) [MusicXML](./theme_vannetaise.mxl)
 - Trumpington Medley [MuseScore](./trumpington_medley.mscz) [MusicXML](./trumpington_medley.mxl)
 - Twelve Days Of Christmas [MuseScore](./twelve_days_of_christmas.mscz) [MusicXML](./twelve_days_of_christmas.mxl)
+- Twelve Days Of Christmas In G [MuseScore](./twelve_days_of_christmas_in_g.mscz) [MusicXML](./twelve_days_of_christmas_in_g.mxl)
