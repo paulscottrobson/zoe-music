@@ -7,6 +7,7 @@
 - Rawhide [MuseScore](./rawhide.mscz) [MusicXML](./rawhide.mxl)
 - Rule Britannia [MuseScore](./rule_britannia.mscz) [MusicXML](./rule_britannia.mxl)
 - Silent Night [MuseScore](./silent_night.mscz) [MusicXML](./silent_night.mxl)
+- Smash The Windows [MuseScore](./smash_the_windows.mscz) [MusicXML](./smash_the_windows.mxl)
 - St Patricks Day [MuseScore](./st_patricks_day.mscz) [MusicXML](./st_patricks_day.mxl)
 - Stairway To Heaven [MuseScore](./stairway_to_heaven.mscz) [MusicXML](./stairway_to_heaven.mxl)
 - Sussex By The Sea [MuseScore](./sussex_by_the_sea.mscz) [MusicXML](./sussex_by_the_sea.mxl)
