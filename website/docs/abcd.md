@@ -24,6 +24,7 @@
 - Chatanooga Choo Choo [MuseScore](./chatanooga_choo_choo.mscz) [MusicXML](./chatanooga_choo_choo.mxl)
 - Colonel Bogey [MuseScore](./colonel_bogey.mscz) [MusicXML](./colonel_bogey.mxl)
 - Concerto In C [MuseScore](./concerto_in_c.mscz) [MusicXML](./concerto_in_c.mxl)
+- Curragh Of Kildare [MuseScore](./curragh_of_kildare.mscz) [MusicXML](./curragh_of_kildare.mxl)
 - Dads Army [MuseScore](./dads_army.mscz) [MusicXML](./dads_army.mxl)
 - Dance Of The Little Fairies [MuseScore](./dance_of_the_little_fairies.mscz) [MusicXML](./dance_of_the_little_fairies.mxl)
 - Dannish Waltz [MuseScore](./dannish_waltz.mscz) [MusicXML](./dannish_waltz.mxl)
