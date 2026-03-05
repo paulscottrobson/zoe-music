@@ -1,6 +1,7 @@
 ## Efgh
 
 - El Cielo [MuseScore](./el_cielo.mscz) [MusicXML](./el_cielo.mxl)
+- Foxhunters Jig [MuseScore](./foxhunters_jig.mscz) [MusicXML](./foxhunters_jig.mxl)
 - Freight Train [MuseScore](./freight_train.mscz) [MusicXML](./freight_train.mxl)
 - Ghost Riders In The Sky [MuseScore](./ghost_riders_in_the_sky.mscz) [MusicXML](./ghost_riders_in_the_sky.mxl)
 - Ghostbusters [MuseScore](./ghostbusters.mscz) [MusicXML](./ghostbusters.mxl)
